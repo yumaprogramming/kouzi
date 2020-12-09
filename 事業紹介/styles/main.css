@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/kaveen-me-fawpJzTo0H0-unsplash.jpg);
+  background-size: cover;
+  object-fit: 50%;
+  background-repeat: no-repeat;
+  /* position: fixed; */
+  z-index: 0;
+  background-attachment: fixed;
+}
+
+header {
+  /* background: rosybrown; */
+  background: #3366CC;
+  background:rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  height: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header img {
+  width: auto;
+  height: 30px;
+  /* height: auto; */
+  left: 50px;
+}
+
+header img:hover {
+  opacity: 0.5;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  /* background: chocolate; */
+  margin: 0;
+}
+
+header ul li {
+  /* background: chartreuse; */
+  color: white;
+  font-weight: bold;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul li a:visited {
+  color: white;
+}
+
+header ul li::before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  margin-right: 5px;
+}
+
+header ul li:hover {
+  /* content: ""; */
+  color: #f67504;
+}
+
+header ul li:first-of-type {
+  margin-right: auto;
+}
+
+header ul li:first-of-type::before {
+  display: none;
+  content: "";
+}
+
+header ul li:last-of-type {
+  width: auto;
+}
+
+header ul li:first-of-type {
+  margin-right: auto;
+}
+
+header ul li:first-of-type::before {
+  display: none;
+  content: "\f105";
+}
+
+header ul li:last-of-type {
+  width: auto;
+}
+
+#nav-drawer {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+#nav-content ul a {
+  text-decoration: none;
+}
+
+.topbox {
+  /* background: green; */
+  text-shadow: 10px 10px 10px black;
+  font-size: xx-large;
+  font-weight: bold;
+  width: 440px;
+  height: 150px;
+  color: white;
+  margin: auto;
+  margin-top: 270px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.serect {
+  margin-top: 100px;
+  height: 150px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.serect ul {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  /* font-size: xx-large; */
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  height: 150px;
+  width: 1000px;
+  margin: 0 auto;
+  /* background: wheat; */
+  /* justify-content: center; */
+}
+
+.serect ul li {
+  background: black;
+  width: 289px;
+  height: auto;
+  text-align: center;
+  margin:  auto;
+  border: solid 2px white;
+}
+
+.serect ul li:hover {
+  opacity: 0.7;
+}
+
+.serect ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-inner {
+  /* background: #000080; */
+  background: #3399FF;
+  background: #f0f0f0;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  
+}
+
+.main-inner p:first-child {
+  /* background: yellowgreen; */
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  
+}
+
+#greet {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background: white;
+}
+
+.idea {
+  width: 1000px;
+  background: white;
+  margin: 0 auto;
+  /* margin-bottom: 100px; */
+}
+
+.idea:first-of-type {
+  margin-bottom: 100px;
+}
+
+.idea-top {
+  display: flex;
+  background: black;
+}
+
+.idea-top h2 {
+  /* background: brown; */
+  margin: auto;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.idea-main h2 {
+  padding-left: 10px;
+
+}
+
+.idea-main p {
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+
+
+#idea {
+  width: 1000px;
+  background: white;
+  margin: 0 auto;
+}
+
+.idea-top {
+  display: flex;
+}
+
+.idea-top h2 {
+  /* background: brown; */
+  margin: auto;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.idea-main p {
+  margin-bottom: 0;
+}
+
+footer {
+  background: #333333;
+  height: 300px;
+  position: relative;
+}
+
+.footer-inner {
+  display: flex;
+  /* justify-content: center; */
+  /* background: yellow; */
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+footer ul {
+  width: 130px;
+  margin: 0 auto;
+  /* background: darkorange; */
+  list-style: none;
+  color: white;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 3px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li:hover {
+  opacity: 0.7;
+}
+
+footer ul li:first-of-type {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer ul li:first-of-type:hover {
+  opacity: 1;
+}
+
+.copy {
+  background: blanchedalmond;
+  background: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* margin-top: 200px; */
+}
